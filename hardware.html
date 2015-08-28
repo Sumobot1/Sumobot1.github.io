@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Peet | Hardware Projects</title>
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- yep here -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link href="css/styles.css?v=1.6" rel="stylesheet">
+    <link href="css/queries.css?v=1.6" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href="css/michaeladd.css" type="text/css" rel="stylesheet">
+    <!-- ADDED HERE!! -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <script src="./js/michaelclass.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">Michael Peet</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="hardware.html">Hardware</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="software.html">Software</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="media.html">Media</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--<script>
+    writeFile('common/navbar')
+    </script>-->
+    <!-- <section class="navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <nav class="pull">
+                        <ul class="top-nav">
+                            <li><a href="#getstarted">Get Started <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                            <li><a href="#media">Media <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                            <li><a href="#features">Features <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                            <li class="nav-last"><a href="#design">Design <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="hero bghardware fullheight" id="hero">
+        <div class="container-fluid fullheight">
+            <!-- <div class="row">
+            <div class="col-md-12 text-right">
+              <a href="#"><i class="fa fa-navicon fa-2x nav_slide_button"></i></a>
+            </div>
+          </div> -->
+            <div class="row relative">
+                <div class="text-center ">
+                    <!-- col-md-2 col-md-offset-5  -->
+                    <img class="homeimage" alt="Tea Rex" src="img/Circletearexwhite.png" draggable- "false">
+                    <!-- got rid of vimeo link, replaced it         <a href="http://player.vimeo.com/video/87701971?title=0&amp;byline=0&amp;portrait=0&amp;color=1883ad&amp;autoplay=1" class="hero-play-btn various fancybox.iframe">     Play Button</a> -->
+                </div>
+            </div>
+            <div class="row relative">
+                <div class="text-center">
+                    <!-- col-md-8 col-md-offset-2  -->
+                    <h1 class="animated bounceInDown">Hardware Projects</h1>
+                </div>
+            </div>
+            <div class="row relative">
+                <div class="text-center">
+                    <p class="animated fadeInUpDelay">"Failure is an option here. If things aren't failing, you aren't innovating enough."
+                        <br> -Elon Musk</p>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="" class="get-started-btn">Get Started</a>
+                </div> -->
+        </div>
+    </section>
+    <section class="download-now" id="getstarted">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <!--                     <h1>
+              Academics
+              </h1> -->
+                    <h1>Universal Television Remote</h1>
+                    <p> For my final project in my Grade 12 Computer Technology class, I decided to create a universal television remote. It was to use the SIRC, NEC, and RC5 Infra Red Protocols to transmit power and volume codes to multiple different types of televisions. I designed the circuit and the board in a program called
+                        <a href="http://fritzing.org/home/" class="link anchorthing">Fritzing.</a> I created the board layout by printing the design onto an overhead, and placing it on a blank board made of Fibreglass covered in copper and a photosensitive coating. The combination was exposed to UV light. This caused the photosensitive coating covering the copper to dissolve. I then placed the board in an etching solution, and etched away the exposed copper, leaving the circuit board. Because of the method used, I was only able to make the board single sided. I chose to drive the LEDs using transistors to allow more current to flow through the LEDs. The code for the remote can be found on my
+                        <a href="https://github.com/Sumobot1?tab=repositories" class="link anchorthing">Github.</a>
+                    </p>
+                    <p style="text-indent: 5em;">I also wrote up a technical report on this project. It can be downloaded here: </p>
+                    <p align="center"><a href="files/Technical+Report+Universal+Remote.docx" class="download-btn">Download</a></p>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="6" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner" style="height:80vh" role="listbox">
+                            <div class="item" align="center">
+                                <img class="first-slide" src="img/IRRemote/IR_Code_Note.jpg" style="height:80vh" alt="First slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="second-slide" src="img/IRRemote/IR_Code_Note_2.jpg" style="height:80vh" alt="Second slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="third-slide" src="img/IRRemote/IMG_1392.jpg" style="height:80vh" alt="Third slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="fourth-slide" src="img/IRRemote/Circuit_Design.png" style="height:80vh" alt="Fourth slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="fifth-slide" src="img/IRRemote/Untitled.png" style="height:80vh" alt="Fifth slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="sixth-slide" src="img/IRRemote/Etched_Circuit_Boards.jpg" style="height:80vh" alt="Sixth slide">
+                            </div>
+                            <div class="item active" align="center">
+                                <img class="seventh-slide" src="img/IRRemote/Finished_Remote.jpg" style="height:80vh" alt="Seventh slide">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <h1>Music Light Board (In Progress)</h1>
+                    <p>In Grade 12 Robotics Club, I designed a circuit board that would make lights flash based on musical frequencies. I used an op amp and 3 filter circuits to complete the project. The same software and procedure used for the television remote was used here. I plan to program the board using a program called MPLAB.</p>
+                    <!-- <div id="myCarousel2" class="carousel slide" data-ride="carousel"> -->
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <img class="first-slide" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Summit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg" alt="First slide"> -->
+                    <!--                                 <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Example headline.</h1>
+                                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.html" role="button">Sign up today</a></p>
+                                    </div>
+                                </div> -->
+                    <!-- </div>
+                            <div class="item">
+                                <img class="second-slide" src="http://cdn2.hubspot.net/hub/330850/file-2483502230-jpg/Blog_Photos/winter_stargazing/night_sky.jpg" alt="Second slide"> -->
+                    <!--                                 <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Another example headline.</h1>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.html" role="button">Learn more</a></p>
+                                    </div>
+                                </div> -->
+                    <!-- </div>
+                            <div class="item active">
+                                <img class="third-slide" src="http://thespiritscience.net/wp-content/uploads/2014/06/The-Night-Sky-Wallpaper.jpg" alt="Third slide"> -->
+                    <!--                                 <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>One more for good measure.</h1>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.html" role="button">Browse gallery</a></p>
+                                    </div>
+                                </div> -->
+                    <!--                             </div>
+                        </div>
+                        <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div> -->
+                    <br>
+                    <br>
+                    <!--                     <br>
+                    <br>
+                    <br>
+                    <br> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="testimonials" id="media">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div id="firstSlider">
+                        <ul class="slides">
+                            <li>
+                                <div class="avatar"><img src="img/av-blaz.png" alt="Blaz Robar"></div>
+                                <h1>I couldnt possibly use my own eyes to look at the stars, thansk Starnught App.</h1>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/av-pete.png" alt="Pete Finlan"></div>
+                                <h1>Staring at the stars has given me feels like never before.</h1>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/av-doge.png" alt="Doge Finbar"></div>
+                                <h1>Much flat, many design, so app. Wow.</h1>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--     <section class="features" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 features-leftcol wp2">
+                    <h1>So Dreamy</h1>
+                    <p class="margin-bottom">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1>Apple Store</h1>
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-md-6 features-rightcol wp3">
+                    <h1>More Buzz Words</h1>
+                    <p class="margin-bottom">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1>Extra Startup Juice</h1>
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="try-btn">Try Demo</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--     <section class="design" id="design">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 align="center" class="blackheading">Past Employment</h1>
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <a href="https://www.dashtask.ca" align="center" class="text-center"><img src="img/Dashtasksquare.png" alt="DashTask" style="max-width: 70vw; width: 100%; height: 100%;"></a> -->
+    <!-- style="width: 100%; height: 100%;" -->
+    <!--                         </div>
+                        <div class="col-md-9">
+                            <h2>DashTask</h2>
+                            <strong>Duration:</strong>
+                            <p> June 29, 2015 - August 28, 2015</p>
+                            <strong>Details:</strong>
+                            <p>-Assisted in front-end development of Dashtask website, as well as visual design consulting</p>
+                            <p>-Specific Tasks included adding expandable sections for the "Post a new task" page, and adding a "Completed Task" view to both the "All Tasks" page, and the "User Panel" page.</p>
+                        </div>
+                    </div>
+                    <p>
+                        <hr>
+                    </p>
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <a href="https://www.palettegear.com" align="center"><img src="img/Palette.jpg" alt="Palette" style="max-width: 70vw; width: 100%; height: 100%;"></a> -->
+    <!-- style="width: 100%; height: 100%;" -->
+    <!--                         </div>
+                        <div class="col-md-9">
+                            <h2>Pallete</h2>
+                            <strong>Duration:</strong>
+                            <p> June 29, 2015 - July 10, 2015</p>
+                            <strong>Details:</strong>
+                            <p>-Assisted in design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying finished product, and repairing broken units.</p>
+                            <p>-Created new template for Palette Website from scratch</p>
+                        </div>
+                    </div> -->
+    <!--                     <div id="secondSlider">
+                        <ul class="slides">
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="flat-box">
+                                        <div class="colourway colour1"></div>
+                                        <p class="title">Extra Startup Juice</p>
+                                        <p class="feature-text">Added Feature</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="flat-box">
+                                        <div class="colourway colour2"></div>
+                                        <p class="title">So Thirsty</p>
+                                        <p class="feature-text">Extra nice UI comes with the app</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 design-content">
+                                    <h1>So flat you'll want to give it some shadows</h1>
+                                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="flat-box">
+                                        <div class="colourway colour3"></div>
+                                        <p class="title">Extra Startup Juice</p>
+                                        <p class="feature-text">Added Feature</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="flat-box">
+                                        <div class="colourway colour4"></div>
+                                        <p class="title">So Thirsty</p>
+                                        <p class="feature-text">Extra nice UI comes with the app</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 design-content">
+                                    <h1>So flat you'll want to give it some shadows</h1>
+                                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> -->
+    <!--                     <div class="col-md-1 col-md-offset-11 text-right controls">
+                        <a href="prev" class="prev"><i class="fa fa-angle-left fa-3x"></i></a>
+                        <a href="next" class="next"><i class="fa fa-angle-right fa-3x"></i></a>
+                    </div> -->
+    <!--                 </div>
+            </div>
+        </div>
+    </section> -->
+    <footer>
+        <div class="container visible1">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p>CREDITS:</p>
+                    <p>Framework: <a href="http://getbootstrap.com/">Bootstrap</a></p>
+                    <p>Template: <a href="http://peterfinlan.com/starnight/">Starnight</a> by Peter Finlan</p>
+                    <!-- <p>Inspiration: <a href="http://ironsummitmedia.github.io/startbootstrap-creative/">Creative</a> by IronSummitMedia</p> -->
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p>T00LS:</p>
+                    <p>Text Editor: <a href="http://www.sublimetext.com/">Sublime Text</a></p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <!-- col-md-2 col-md-offset-3 -->
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="hardware.html">Hardware</a></li>
+                        <li><a href="software.html">Software</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="badge-btn">Badge Button</a>
+                    <p class="footer-credit">Design by <a href="http://www.blazrobar.com">Blaz Robar</a> | Developed by <a href="http://www.peterfinlan.com">Peter Finlan</a> and Michael Peet</p>
+                </div>
+            </div>
+        </div>
+        <div class="container visible2">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12" align="center">
+                    <p>CREDITS:</p>
+                    <!-- <p>Inspiration: <a href="http://ironsummitmedia.github.io/startbootstrap-creative/">Creative</a> by IronSummitMedia</p> -->
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12" align="center">
+                    <p>Framework: <a href="http://getbootstrap.com/">Bootstrap</a></p>
+                    <p>Template: <a href="http://peterfinlan.com/starnight/">Starnight</a> by Peter Finlan</p>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12" align="center">
+                    <p>T00LS:</p>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12" align="center">
+                    <p>Text Editor: <a href="http://www.sublimetext.com/">Sublime Text</a></p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="index.html" class="footer-nav2">Home</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="about.html" class="footer-nav2">About</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="hardware.html" class="footer-nav2">Hardware</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="software.html" class="footer-nav2">Software</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="media.html" class="footer-nav2">Media</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 footer-nav2" align="center">
+                    <a href="contact.html" class="footer-nav2">Contact</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="badge-btn">Badge Button</a>
+                    <p class="footer-credit">Design by <a href="http://www.blazrobar.com">Blaz Robar</a> | Developed by <a href="http://www.peterfinlan.com">Peter Finlan</a> and Michael Peet</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js?v=1.7"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/waypoints.min.js"></script>
+</body>
+
+</html>
