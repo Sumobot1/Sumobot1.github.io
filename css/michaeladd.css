@@ -73,6 +73,17 @@
     align:center
     vertical-align: middle;
 }*/
+.socialfooter{
+    color: #57B3AF; 
+    font-size: 5.5em
+}
+.socialfooter:hover{
+    color: #42817e;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
 .visible1{
     display: block;
 }
