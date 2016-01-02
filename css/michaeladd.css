@@ -161,6 +161,9 @@
     /*height: 0;*/
     /*padding-bottom: 28.125%;*/
 }
+.scaleface{
+    max-width: 20vw;
+}
 
 @media only screen and (max-width: 766px) {
     /*    iframe {
@@ -177,6 +180,9 @@
     }
     .visible2{
         display: block;
+    }
+    .scaleface{
+        max-width: 60vw;
     }
 }
 
@@ -198,7 +204,7 @@
 .homeimage {
     max-height: 75vh;
     max-width: 70vw;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .fullheight {
