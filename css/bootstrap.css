@@ -423,7 +423,7 @@ h6,
     font-family: inherit;
     font-weight: 300;
     line-height: 1.1;
-    color: inherit;
+    /*color: white;*/
 }
 
 h1 small,

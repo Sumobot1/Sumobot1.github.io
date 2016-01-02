@@ -196,8 +196,9 @@
 }
 
 .homeimage {
-    max-height: 55vh;
+    max-height: 75vh;
     max-width: 70vw;
+    opacity: 0.7;
 }
 
 .fullheight {
