@@ -56,7 +56,7 @@ function isitopen() {
  function handlePastEmployment(info) {
     var pastemployment = JSON.parse(info);
     console.log(JSON.parse(info));
-    alert(JSON.parse(info['title']));
+    alert(JSON.parse(info));
  }
 
  loadJSON('http://sumobot1.github.io/pastemployment.json', handlePastEmployment);
