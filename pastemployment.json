@@ -11,7 +11,7 @@
 				"-Customer support lead for over 2 million users. Resolved over 2200 support tickets in multiple languages"
 			],
 			"img": "img/videostream.png",
-			"href": "http://getvideostream.com/",
+			"href": "http://getvideostream.com/"
 		},
 		{
 			"company": "DashTask",
@@ -22,7 +22,7 @@
 				"-Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
 			],
 			"img": "img/Dashtasksquare.png",
-			"href": "http://www.dashtask.ca",
+			"href": "http://www.dashtask.ca"
 		},
 		{
 			"company": "Pallete",
@@ -33,7 +33,7 @@
 		        "-Created new template for Palette Website from scratch"
 			],
 			"img": "img/Palette.jpg",
-			"href": "https://www.palettegear.com",
+			"href": "https://www.palettegear.com"
 		},
 		{
 			"company": "City of Kitchener",
@@ -47,7 +47,7 @@
 		        "-Interact with parents and other leaders."
 			],
 			"img": "img/Kit_Logo_RGBsquare.png",
-			"href": "https://www.kitchener.ca/en/livinginkitchener/Neighbourhood-Camps.asp",
+			"href": "https://www.kitchener.ca/en/livinginkitchener/Neighbourhood-Camps.asp"
 		},
 		{
 			"company": "St. Jacobs Country Playhouse",
@@ -57,7 +57,7 @@
 				"-Assisted Patrons, sold draw tickets and food at intermission"
 			],
 			"img": "img/drayton-logosquare.png",
-			"href": "http://www.stjacobs.com/theatre",
+			"href": "http://www.stjacobs.com/theatre"
 		}
 	]
 }
