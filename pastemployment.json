@@ -3,7 +3,7 @@
 		{
 			"company": "BuildDirect Design Center",
 			"position": "Software Developer",
-			"timeframe": "August 28, 2016 - December 23, 2016",
+			"timeframe": "August 29, 2016 - December 23, 2016",
 			"details": [
 				"-Made multiple improvements to existing layout generation algorithms including complete rewrite of upper cabinet placement logic",
 				"-Wrote layout filtering module to implement Kitchen Design Standards, resulting in a 33% decrease in layout generation time on average",
@@ -16,7 +16,7 @@
 		{
 			"company": "Videostream",
 			"position": "Software Support Specialist",
-			"timeframe": "January 4, 2016 - April 28, 2016",
+			"timeframe": "January 4, 2016 - April 29, 2016",
 			"details": [
 				"-Worked in a hybrid development/support role, taking user feedback and using it to implement requested features into Videostream app (2M+ users)",
 				"-Using Javascript, implemented a Recent Downloads feature into the app, currently used by over 5000 users daily",
