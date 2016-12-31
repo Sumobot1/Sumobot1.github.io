@@ -86,9 +86,12 @@ $(document).ready(function() {
     function handleImages(info) {
         var galleries = JSON.parse(info)['images'];
         var photos = document.getElementById("photosandmedia");
+        if (!photos){
+            return;
+        }
         for (var i = 0; i < galleries.length; i++) {
             var gallery = galleries[i];
-            var tagname = gallery['from'].replace(/ /g, '-');
+            var tagname = gallery['from'].replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,'_').replace(/ /g, '-');
             $('<h3 class="white" align="center">' + gallery['from'] + '</h3>').appendTo(photos);
             $('<div id=' + tagname + ' class="row"></div>').appendTo(photos);
             var temp = document.getElementById(tagname);
@@ -96,7 +99,7 @@ $(document).ready(function() {
                 var url = gallery['galleryurls'][j];
                 $('<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12" style="overflow: hidden" align="center"> \
                     <div class="thumbnail growonhover"> \
-                        <img src="' + url + '" data-toggle="modal" data-target="#' + tagname + '-modal" data-slide-to="0" width="100%"> \
+                        <img src="' + url + '" data-toggle="modal" data-target="#' + tagname + '-modal" data-slide-to='+j+' width="100%"> \
                     </div> \
                 </div>').appendTo(temp);
             }
@@ -109,26 +112,16 @@ $(document).ready(function() {
         //create image carousels
         for (var i = 0; i < galleries.length; i++) {
             var gallery = galleries[i];
-            var tagname = gallery['from'].replace(/ /g, '-');
+            var tagname = gallery['from'].replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,'_').replace(/ /g, '-');
             var currmodal = $('<div id=' + tagname + '-modal class="modal fade middleall" align="center"></div>').appendTo(photos)[0];
-            // var currmodal = document.getElementById(tagname + '-modal');
-            console.log(currmodal);
             var holder = $('<div id=' + tagname + '-carousel-holder></div>').appendTo(currmodal)[0];
             $('<br> <br> <a class="btn btn-default" data-dismiss="modal">Close</a>').appendTo(currmodal);
-            // var holder = document.getElementById(tagname + '-carousel-holder');
-            console.log(holder);
             var carousel = $('<div id=' + tagname + '-carousel class="carousel slide middleagain" data-ride="carousel"></div>').appendTo(holder)[0];
-            // var carousel = document.getElementById(tagname + "-carousel");
-            console.log(carousel);
             var indicators = $('<ol id=' + tagname + '-carousel-indicators class="carousel-indicators"></ol>').appendTo(carousel)[0];
-            // var indicators = document.getElementById(tagname + '-carousel-indicators');
-            console.log(indicators);
             for (var j = 0;j<gallery['galleryurls'].length;j++) {
                 $('<li data-target="#' + tagname + '-carousel" data-slide-to='+j+' class=""></li>').appendTo(indicators);
             }
             var carouselinner = $('<div class="carousel-inner" role="listbox">').appendTo(carousel)[0];
-            console.log(carouselinner);
-            //NEED TO REPLACE TAGNAME WITH SOMETHING ACTUALLY USEFUL
             for (var j = 0;j<gallery['imgurls'].length;j++) {
                 if (j === gallery["imgurls"].length -1){
                     state = "active";
@@ -153,8 +146,6 @@ $(document).ready(function() {
 
     loadJSON('http://sumobot1.github.io/pastemployment.json', handlePastEmployment);
     loadJSON('http://sumobot1.github.io/imagegallery.json', handleImages);
-    console.log(convert(1000));
-    console.log(convert(937843));
 });
 
 var special = ['zeroth','first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth', 'eleventh', 'twelvth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth'];
