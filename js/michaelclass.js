@@ -144,7 +144,7 @@ $(document).ready(function() {
         }
     }
 
-    loadJSON('http://sumobot1.github.io/pastemployment.json', handlePastEmployment);
+    loadJSON('http://sumobot1.github.io/pastemployment2.json', handlePastEmployment);
     loadJSON('http://sumobot1.github.io/imagegallery.json', handleImages);
 });
 
