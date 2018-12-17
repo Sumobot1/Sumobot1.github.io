@@ -1,9 +1,37 @@
 {
 	"pastemployment": [
 		{
+			"company": "Miovision Technologies",
+			"position": "Machine Learning Software Developer (CoreIP)",
+			"timeframe": "September - December 2018",
+			"details": [
+				"- Refined existing and added new data augmentation methods using Tensorflow and OpenCV. Improved learning rate decay schedule of RMSprop Optimizer to improve performance of Miovision’s Single Shot Multibox Detector Model. Decreased False Negative Rate by 6% on average to 7.23% and 95th percentile False Negatives by 22.23% to 28.41%. The new model was presented to the company and deployed to production by the end of the co-op term.",
+				"- Experimenting with refining default anchor boxes with Scikit-learn’s K-Means Clustering and rewriting Smooth L1 localization and Sigmoid classification loss functions in Tensorflow to ignore small objects.",
+				"- Identified performance bottleneck in training infrastructure and proposed workaround to make model training 2 times faster on average.",
+				"- Customized the CARLA Autonomous Driving Simulator. Wrote Python Scripts to produce annotated frames for a synthetic data training system to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
+				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term."
+			],
+			"img": "img/miovision.jpg",
+			"href": "https://miovision.com/"
+		},
+		{
+			"company": "Miovision Technologies",
+			"position": "Software Developer (Datalink)",
+			"timeframe": "April - August 2017, January - April 2018",
+			"details": [
+				"- Diagnosed and fixed a production slowdown causing all servers to be unresponsive. Used Ruby-Prof for performance profiling. Production functionality was restored in about 4 hours and the fix made Travel Time Report generation 200 times faster overall.",
+				"- Streamlined Travel Time Report PDF Creation code to make it 6 times faster, and optimized Ruby on Rails’ ActiveRecord ORM queries to make website performance 2.3 times faster on average for modified components.",
+				"- Designed and implemented communication between Miovision’s Datalink and video processing servers using multiple small Sidekiq workers and Amazon SQS queues to decouple long running tasks as part of an effort to eliminate a legacy server costing $21800 per year.",
+				"- Implemented data visualization tool using JQuery to help sales keep track of metrics and identify cities where traffic scouts could be sold.",
+				"- Reproduced Datalink environment in Docker containers, allowing for faster environment setup and enabling cross platform development."
+			],
+			"img": "img/miovision.jpg",
+			"href": "https://miovision.com/"
+		},
+		{
 			"company": "BuildDirect Design Center",
 			"position": "Software Developer",
-			"timeframe": "August 29, 2016 - December 23, 2016",
+			"timeframe": "August - December 2016",
 			"details": [
 				"-Made multiple improvements to existing layout generation algorithms including complete rewrite of upper cabinet placement logic",
 				"-Wrote layout filtering module to implement Kitchen Design Standards, resulting in a 33% decrease in layout generation time on average",
@@ -16,7 +44,7 @@
 		{
 			"company": "Videostream",
 			"position": "Software Support Specialist",
-			"timeframe": "January 4, 2016 - April 29, 2016",
+			"timeframe": "January - April 2016",
 			"details": [
 				"-Worked in a hybrid development/support role, taking user feedback and using it to implement requested features into Videostream app (2M+ users)",
 				"-Using Javascript, implemented a Recent Downloads feature into the app, currently used by over 5000 users daily",
@@ -29,7 +57,7 @@
 		{
 			"company": "DashTask",
 			"position": "Front End Web Development Intern",
-			"timeframe": "June 29, 2015 - August 28, 2015",
+			"timeframe": "June - August 2015",
 			"details": [
 				"-Assisted in front-end development of DashTask website, as well as visual design consulting",
 				"-Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
@@ -40,7 +68,7 @@
 		{
 			"company": "Palette",
 			"position": "Hardware Design and Assembly Intern",
-			"timeframe": "June 29, 2015 - July 10, 2015",
+			"timeframe": "June - July 2015",
 			"details": [
 				"-Assisted in the design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying the finished product, and repairing broken units.",
 		        "-Created new template for Palette Website from scratch"
