@@ -189,5 +189,65 @@
 				"img/BC/bc (26).jpg",
 				"img/BC/bc (27).jpg"
 			]
+		},
+		{
+			"from": "Flagstaff, Arizona",
+			"galleryurls": [
+				"img/ArizonaThumbs/20170826_214302_HDR.jpg",
+				"img/ArizonaThumbs/20170827_165009_HDR.jpg",
+				"img/ArizonaThumbs/20170827_170218_HDR.jpg",
+				"img/ArizonaThumbs/20170828_132529.jpg",
+				"img/ArizonaThumbs/20170828_174841_Pano.jpg",
+				"img/ArizonaThumbs/20170828_175846.jpg",
+				"img/ArizonaThumbs/20170828_180014_Pano.jpg",
+				"img/ArizonaThumbs/20170829_184233.jpg",
+				"img/ArizonaThumbs/20170829_200134.jpg"
+			],
+			"imgurls": [
+				"img/Arizona/20170826_214302_HDR.jpg",
+				"img/Arizona/20170827_165009_HDR.jpg",
+				"img/Arizona/20170827_170218_HDR.jpg",
+				"img/Arizona/20170828_132529.jpg",
+				"img/Arizona/20170828_174841_Pano.jpg",
+				"img/Arizona/20170828_175846.jpg",
+				"img/Arizona/20170828_180014_Pano.jpg",
+				"img/Arizona/20170829_184233.jpg",
+				"img/Arizona/20170829_200134.jpg"
+			]
+		},
+		{
+			"from": "Spain and Portugal",
+			"galleryurls": [
+				"img/SpainPortugalThumbs/20180815_130345_HDR.jpg",
+				"img/SpainPortugalThumbs/20180815_134520_HDR.jpg",
+				"img/SpainPortugalThumbs/20180815_134919_HDR.jpg",
+				"img/SpainPortugalThumbs/20180817_011237.jpg",
+				"img/SpainPortugalThumbs/20180817_012114.jpg",
+				"img/SpainPortugalThumbs/20180817_082750_HDR.jpg",
+				"img/SpainPortugalThumbs/20180817_180128_HDR.jpg",
+				"img/SpainPortugalThumbs/20180817_200120.jpg",
+				"img/SpainPortugalThumbs/20180818_154857.jpg",
+				"img/SpainPortugalThumbs/20180820_171628.jpg",
+				"img/SpainPortugalThumbs/20180820_212625.jpg",
+				"img/SpainPortugalThumbs/20180822_174333.jpg",
+				"img/SpainPortugalThumbs/20180822_175013_HDR-1.jpg",
+				"img/SpainPortugalThumbs/IMG_4708.jpg"
+			],
+			"imgurls": [
+				"img/SpainPortugal/20180815_130345_HDR.jpg",
+				"img/SpainPortugal/20180815_134520_HDR.jpg",
+				"img/SpainPortugal/20180815_134919_HDR.jpg",
+				"img/SpainPortugal/20180817_011237.jpg",
+				"img/SpainPortugal/20180817_012114.jpg",
+				"img/SpainPortugal/20180817_082750_HDR.jpg",
+				"img/SpainPortugal/20180817_180128_HDR.jpg",
+				"img/SpainPortugal/20180817_200120.jpg",
+				"img/SpainPortugal/20180818_154857.jpg",
+				"img/SpainPortugal/20180820_171628.jpg",
+				"img/SpainPortugal/20180820_212625.jpg",
+				"img/SpainPortugal/20180822_174333.jpg",
+				"img/SpainPortugal/20180822_175013_HDR-1.jpg",
+				"img/SpainPortugal/IMG_4708.jpg"
+			]
 		}]
 }
