@@ -81,6 +81,42 @@
             <div class="row">
                 <h1 align = "center">Hardware Projects</h1>
                 <div class="text-center">
+                    <h2 class="white">Gaming Computer</h2>
+                    <p>During my 2B school term, one of my projects was making a CNN to distinguish between images of dogs and cats.  I trained the CNN using the GPU on my laptop, which was powerful at the time, but getting old.  Training took longer than I would have liked, resulting in a final model that did not perform as well as I had hoped.  Between this experience and the fact that my laptop was starting to have trouble running the games I wanted to play, I decided I wanted to get a new computer.
+                    </p>
+                    <p>At the time, I was using GRUB to dual boot Ubuntu and Windows.  Over the course of the project I did in 2B, I ran into numerous problems with dual booting, including when Windows at one point appeared to remove Grub from the startup process.  Tired of dealing with these problems, I decided I needed a better dual booting solution.  I did a bit of research online, and this is what I came up with!
+                    </p>
+                    <p>To avoid having to use a boot manager, I built my computer with a physical switch in the front, allowing me to disconnect/reconnect hard drives as needed every time I shut down.  Currently, the system runs Ubuntu, and Windows.  Each system is equipped with one SSD, and at least one hard drive.
+                    </p>
+                    <p>I built the computer over the Christmas Holidays and for the most part, it went smoothly.  The only problem I ran into was at the very end, when I was trying to connect the RGB lights from the case to the ones on my motherboard.  The Phanteks case I was using had a proprietary connector, that I would need to buy an adapter for if I wanted to connect it to the RGB headers on my motherboard.  Unfortunately, when I looked for it on Amazon, it was expensive, out of stock, and would not arrive before the end of the holidays.  To deal with the problem, I took some hobby wiring that I had left over from a previous hardware project and attached it to the RGB headers on the motherboard.  I then attached those wires to the Phanteks connector using the ends of some resistors I had left over  from another project.  After covering everything with electrical tape, I booted the computer up and the case lights were working!  Some pictures are below!
+                    </p>
+                    <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel3" data-slide-to="0" class=""></li>
+                            <li data-target="#myCarousel3" data-slide-to="1" class=""></li>
+                            <li data-target="#myCarousel3" data-slide-to="2" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner" style="max-height:80vh" role="listbox">
+                            <div class="item" align="center">
+                                <img class="first-slide" src="img/PC_Build/phanteks_connector.png" style="height:80vh" alt="First slide">
+                            </div>
+                            <div class="item" align="center">
+                                <img class="second-slide" src="img/PC_Build/fixed_connector.png" style="height:80vh" alt="Second slide">
+                            </div>
+                            <div class="item active" align="center">
+                                <img class="third-slide" src="img/PC_Build/finished_build.png" style="height:80vh; vertical-align: middle" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                     <h2 class="white">Universal Television Remote</h2>
                     <p> For my final project in my Grade 12 Computer Technology class, I decided to create a universal television remote. It was to use the SIRC, NEC, and RC5 Infra Red Protocols to transmit power and volume codes to multiple different types of televisions. I designed the circuit and the board in a program called
                         <a href="http://fritzing.org/home/" class="link anchorthing">Fritzing.</a> I created the board layout by printing the design onto an overhead, and placing it on a blank board made of Fibreglass covered in copper and a photosensitive coating. The combination was exposed to UV light. This caused the photosensitive coating covering the copper to dissolve. I then placed the board in an etching solution, and etched away the exposed copper, leaving the circuit board. Because of the method used, I was only able to make the board single sided. I chose to drive the LEDs using transistors to allow more current to flow through the LEDs. The code for the remote can be found on my

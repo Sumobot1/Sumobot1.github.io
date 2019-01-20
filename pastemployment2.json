@@ -2,28 +2,38 @@
 	"pastemployment": [
 		{
 			"company": "Miovision Technologies",
-			"position": "Machine Learning Software Developer (CoreIP)",
+			"position": "Machine Learning Developer Intern",
 			"timeframe": "September - December 2018",
 			"details": [
-				"- Refined existing and added new data augmentation methods using Tensorflow and OpenCV. Improved learning rate decay schedule of RMSprop Optimizer to improve performance of Miovision’s Single Shot Multibox Detector Model. Decreased False Negative Rate by 6% on average to 7.23% and 95th percentile False Negatives by 22.23% to 28.41%. The new model was presented to the company and deployed to production by the end of the co-op term.",
-				"- Experimenting with refining default anchor boxes with Scikit-learn’s K-Means Clustering and rewriting Smooth L1 localization and Sigmoid classification loss functions in Tensorflow to ignore small objects.",
-				"- Identified performance bottleneck in training infrastructure and proposed workaround to make model training 2 times faster on average.",
-				"- Customized the CARLA Autonomous Driving Simulator. Wrote Python Scripts to produce annotated frames for a synthetic data training system to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
-				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term."
+				"- Designed, trained, and deployed an improved SSD object detection model to production, which decreased false negative rates by 61% on average and resolved critical detection issues. Efforts received company-wide recognition",
+				"- Rewrote loss function in Tensorflow resulting in an experimental model with a 50% decreased false positive rate",
+				"- Identified and fixed bottleneck in training infrastructure, making model training 2x faster on average",
+				"- Created Synthetic Data Training System using CARLA Autonomous Driving Simulator and OpenCV to improve model performance on underrepresented classes and challenging conditions",
+				"- Trained 3 full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term."
 			],
 			"img": "img/miovision.jpg",
 			"href": "https://miovision.com/"
 		},
 		{
 			"company": "Miovision Technologies",
-			"position": "Software Developer (Datalink)",
-			"timeframe": "April - August 2017, January - April 2018",
+			"position": "Software Developer Intern",
+			"timeframe": "January - April 2018",
 			"details": [
-				"- Diagnosed and fixed a production slowdown causing all servers to be unresponsive. Used Ruby-Prof for performance profiling. Production functionality was restored in about 4 hours and the fix made Travel Time Report generation 200 times faster overall.",
-				"- Streamlined Travel Time Report PDF Creation code to make it 6 times faster, and optimized Ruby on Rails’ ActiveRecord ORM queries to make website performance 2.3 times faster on average for modified components.",
-				"- Designed and implemented communication between Miovision’s Datalink and video processing servers using multiple small Sidekiq workers and Amazon SQS queues to decouple long running tasks as part of an effort to eliminate a legacy server costing $21800 per year.",
-				"- Implemented data visualization tool using JQuery to help sales keep track of metrics and identify cities where traffic scouts could be sold.",
-				"- Reproduced Datalink environment in Docker containers, allowing for faster environment setup and enabling cross platform development."
+				"- Utilized Ruby-Prof for performance profiling; fixes made report generation 200x faster, and PDF generation 6x faster",
+				"- Optimized Ruby on Rails’ ActiveRecord ORM queries to make website performance 2.3x faster on average",
+				"- Decoupled long running tasks into Sidekiq Workers to eliminate legacy code, projected to save $21,800 yearly",
+				"- Diagnosed and fixed a production emergency in under 4 hours, which had caused all servers to be unresponsive"
+			],
+			"img": "img/miovision.jpg",
+			"href": "https://miovision.com/"
+		},
+		{
+			"company": "Miovision Technologies",
+			"position": "Software Developer Intern",
+			"timeframe": "April - August 2017",
+			"details": [
+				"- Investigated reproducing Datalink environment in Docker, allowing for 16x faster setup and cross-platform coding",
+				"- Implemented data visualization tool to help sales keep track of metrics and identify target areas for expansion"
 			],
 			"img": "img/miovision.jpg",
 			"href": "https://miovision.com/"
