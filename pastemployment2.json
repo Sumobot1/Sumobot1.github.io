@@ -40,13 +40,13 @@
 		},
 		{
 			"company": "BuildDirect Design Center",
-			"position": "Software Developer",
+			"position": "Software Developer Intern",
 			"timeframe": "August - December 2016",
 			"details": [
-				"-Made multiple improvements to existing layout generation algorithms including complete rewrite of upper cabinet placement logic",
-				"-Wrote layout filtering module to implement Kitchen Design Standards, resulting in a 33% decrease in layout generation time on average",
-				"-Streamlined deployment workflow by integrating with Github Deployments API, and writing an Errbot plugin to display deployment status of all environments",
-				"-Participated in code reviews, helped test and debug issues across entire stack"
+				"- Wrote Python layout filtering module, resulting in 33% decrease in layout generation time and improved UI",
+				"- Created an integration with Github and Slack APIs to improve deployment workflow and provide visibility to engineers",
+				"- Made multiple improvements to existing layout generation algorithms including complete rewrite of upper cabinet placement logic",
+				"- Participated in code reviews, helped test and debug issues across entire stack"
 			],
 			"img": "img/builddirect.png",
 			"href": "http://www.builddirect.com/design-center"
@@ -56,10 +56,10 @@
 			"position": "Software Support Specialist",
 			"timeframe": "January - April 2016",
 			"details": [
-				"-Worked in a hybrid development/support role, taking user feedback and using it to implement requested features into Videostream app (2M+ users)",
-				"-Using Javascript, implemented a Recent Downloads feature into the app, currently used by over 5000 users daily",
-				"-Coded across Android (Java), iOS (Obj-C) and Web (Javascript) to implement a Netflix style Continue Watching feature",
-				"-Customer support lead for over 2 million users. Resolved over 2200 support tickets in multiple languages"
+				"- Worked in a hybrid development/support role, taking user feedback and using it to implement requested features into Videostream app (2M+ users)",
+				"- Using Javascript, implemented a Recent Downloads feature into the app, currently used by over 5000 users daily",
+				"- Coded across Android (Java), iOS (Obj-C) and Web (Javascript) to implement a Netflix style Continue Watching feature",
+				"- Customer support lead for over 2 million users. Resolved over 2200 support tickets in multiple languages"
 			],
 			"img": "img/videostream.png",
 			"href": "http://getvideostream.com/"
@@ -69,8 +69,8 @@
 			"position": "Front End Web Development Intern",
 			"timeframe": "June - August 2015",
 			"details": [
-				"-Assisted in front-end development of DashTask website, as well as visual design consulting",
-				"-Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
+				"- Assisted in front-end development of DashTask website, as well as visual design consulting",
+				"- Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
 			],
 			"img": "img/Dashtasksquare.png",
 			"href": "http://www.dashtask.ca"
@@ -80,8 +80,8 @@
 			"position": "Hardware Design and Assembly Intern",
 			"timeframe": "June - July 2015",
 			"details": [
-				"-Assisted in the design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying the finished product, and repairing broken units.",
-		        "-Created new template for Palette Website from scratch"
+				"- Assisted in the design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying the finished product, and repairing broken units.",
+		        "- Created new template for Palette Website from scratch"
 			],
 			"img": "img/Palette.jpg",
 			"href": "https://www.palettegear.com"
@@ -91,11 +91,11 @@
 			"position": "Camp Counsellor",
 			"timeframe": "July - August, 2012/2013/2014",
 			"details": [
-		        "-Planned and executed fun and educational activities for campers",
-		        "-Provided supervision on field trips and monitored camper behaviour",
-		        "-Ensured safety of campers at all times",
-		        "-Manage weekly budget to purchase needed camp supplies",
-		        "-Interact with parents and other leaders."
+		        "- Planned and executed fun and educational activities for campers",
+		        "- Provided supervision on field trips and monitored camper behaviour",
+		        "- Ensured safety of campers at all times",
+		        "- Manage weekly budget to purchase needed camp supplies",
+		        "- Interact with parents and other leaders."
 			],
 			"img": "img/Kit_Logo_RGBsquare.png",
 			"href": "https://www.kitchener.ca/en/livinginkitchener/Neighbourhood-Camps.asp"
@@ -105,7 +105,7 @@
 			"position": "Usher",
 			"timeframe": "2010 - 2015",
 			"details": [
-				"-Assisted patrons, sold draw tickets and food at intermission"
+				"- Assisted patrons, sold draw tickets and food at intermission"
 			],
 			"img": "img/drayton-logosquare.png",
 			"href": "http://www.stjacobs.com/theatre"

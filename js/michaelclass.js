@@ -5,15 +5,15 @@ $(document).ready(function() {
     /*On Scroll, if not at the top of the page, change the color on the background from transparent to grey.  If at top of page, turn from grey to transparent*/
     window.addEventListener("scroll", function() {
         if (window.scrollY > 0) {
-            $(".navbar-default").css("background-color", "#777");
-            $(".navbar-default").css("border-color", "#777");
+            $(".navbar-default").css("background-color", "#5F5D6C");
+            $(".navbar-default").css("border-color", "#5F5D6C");
             $(".navbar-default").css("opacity", "0.9");
         } else {
             $(".navbar-default").css("background-color", "transparent");
             $(".navbar-default").css("border-color", "transparent");
             if (isopen == 1) {
-                $(".navbar-default").css("background-color", "#777");
-                $(".navbar-default").css("border-color", "#777");
+                $(".navbar-default").css("background-color", "#5F5D6C");
+                $(".navbar-default").css("border-color", "#5F5D6C");
                 $(".navbar-default").css("opacity", "0.9");
             }
         }
@@ -24,14 +24,14 @@ $(document).ready(function() {
 
     function isitopen() {
         if (isopen == 0) {
-            $(".navbar-default").css("background-color", "#777");
-            $(".navbar-default").css("border-color", "#777");
+            $(".navbar-default").css("background-color", "#5F5D6C");
+            $(".navbar-default").css("border-color", "#5F5D6C");
             $(".navbar-default").css("opacity", "0.9");
             isopen = 1;
         } else if (isopen == 1) {
             if (window.scrollY > 0) {
-                $(".navbar-default").css("background-color", "#777");
-                $(".navbar-default").css("border-color", "#777");
+                $(".navbar-default").css("background-color", "#5F5D6C");
+                $(".navbar-default").css("border-color", "#5F5D6C");
                 $(".navbar-default").css("opacity", "0.9");
                 isopen = 0;
             } else {
@@ -69,16 +69,16 @@ $(document).ready(function() {
                             <a href="' + pastemployment[i]['href'] + '" align="center" class="text-center"><img src=' + pastemployment[i]['img'] + ' alt=' + pastemployment[i]["company"] + ' style="max-width: 70vw; width: 100%; height: 100%;"></a> \
                         </div> \
                         <div class="col-md-9"> \
-                            <h2>' + pastemployment[i]["company"] + ': ' + pastemployment[i]["position"] + '</h2> \
-                            <strong>Duration:</strong> \
-                            <p> ' + pastemployment[i]['timeframe'] + '</p> \
-                            <strong>Details:</strong> \
+                            <h2 class="white-text">' + pastemployment[i]["company"] + ': ' + pastemployment[i]["position"] + '</h2> \
+                            <strong class="white-text">Duration:</strong> \
+                            <p class="white-text"> ' + pastemployment[i]['timeframe'] + '</p> \
+                            <strong class="white-text">Details:</strong> \
                             ' + pastemployment[i]['details'].map((info) => {
-                    return "<p>" + info + "</p>" }).join("") +
+                    return "<p class=\"white-text bullet-point\">" + info + "</p>" }).join("") +
                 '</div> \
                     </div>').appendTo(employmentdiv);
             if (i !== pastemployment.length - 1) {
-                $('<p> <hr> </p>').appendTo(employmentdiv);
+                $('<p> <hr  style="border-top: 1px solid #fff"> </p>').appendTo(employmentdiv);
             }
         }
     }

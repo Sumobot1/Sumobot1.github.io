@@ -1,20 +1,24 @@
-.socialfooter{
-    color: #57B3AF; 
+.socialfooter {
+    color: #37755b;
     font-size: 5.5em
 }
-.socialfooter:hover{
-    color: #42817e;
+
+.socialfooter:hover {
+    color: #19573d;
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
-.visible1{
+
+.visible1 {
     display: block;
 }
-.visible2{
+
+.visible2 {
     display: none;
 }
+
 .footer-nav2 {
     display: block;
     color: #fff;
@@ -176,4 +180,43 @@
     -o-background-size: cover;
     background-size: cover;
     padding: 65px 0;
+}
+
+.download-now {
+    background: #292D40 no-repeat right 65px;
+    background-size: 50%;
+}
+
+.design {
+    padding: 100px 0;
+    background-color: #53688A;
+    position: relative;
+}
+
+.white-text {
+    color: #fff !important;
+    font-size: 1.2em;
+}
+
+.bullet-point {
+    margin-bottom: 0;
+    margin-top: 0.3em;
+}
+
+footer {
+    background-color: #69A78D
+}
+
+footer a {
+    color: #19573d;
+}
+
+.footer-nav li a:hover, .footer-nav li a:focus {
+    text-decoration: none;
+    color: #19573d;
+}
+
+a {
+    color: #69A78D;
+    text-decoration: none;
 }
