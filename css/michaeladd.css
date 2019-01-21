@@ -1,10 +1,10 @@
 .socialfooter {
-    color: #37755b;
+    color: #2e1a39;
     font-size: 5.5em
 }
 
 .socialfooter:hover {
-    color: #19573d;
+    color: #1a0625;
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -204,16 +204,20 @@
 }
 
 footer {
-    background-color: #69A78D
+    background-color: #422E4D
 }
 
 footer a {
-    color: #19573d;
+    color: #C6AD8C;
+}
+
+footer a:hover {
+    color: #9e8564;
 }
 
 .footer-nav li a:hover, .footer-nav li a:focus {
     text-decoration: none;
-    color: #19573d;
+    color: #9e8564;
 }
 
 a {
