@@ -1,15 +1,27 @@
 {
 	"pastemployment": [
 		{
+			"company": "Bloomberg",
+			"position": "Machine Learning Software Developer (Artificial Intelligence Group)",
+			"timeframe": "May - August 2019",
+			"details": [
+				"- Improved precision of linear spam classifier by 1% to achieve 0.94 Precision at 0.8 Recall",
+				"- Provided more accurate inference timing estimates, improved model evaluation process, and fixed feature generation bugs in C++ model training framework",
+				"- Explored difference between composition of news and opinion articles, created model to classify them with 0.93 F1.  Model and findings were presented to Artificial Intelligence Group and are being productized"
+			],
+			"img": "img/bloomberg.jpg",
+			"href": "https://www.bloomberg.com"
+		},
+		{
 			"company": "Miovision Technologies",
 			"position": "Machine Learning Developer Intern",
 			"timeframe": "September - December 2018",
 			"details": [
-				"- Designed, trained, and deployed an improved SSD object detection model to production, which decreased false negative rates by 61% on average and resolved critical detection issues. Efforts received company-wide recognition",
+				"- Designed, trained, and deployed an improved SSD object detection model to production, which decreased false negative rates by 61% on average and resolved critical detection issues.  Efforts received company-wide recognition",
 				"- Rewrote loss function in Tensorflow resulting in an experimental model with a 50% decreased false positive rate",
 				"- Identified and fixed bottleneck in training infrastructure, making model training 2x faster on average",
-				"- Created Synthetic Data Training System using CARLA Autonomous Driving Simulator and OpenCV to improve model performance on underrepresented classes and challenging conditions",
-				"- Trained 3 full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term."
+				"- Customized the CARLA Autonomous Driving Simulator. Wrote Python Scripts to produce annotated frames for a synthetic data training system to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
+				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term"
 			],
 			"img": "img/miovision.jpg",
 			"href": "https://miovision.com/"
