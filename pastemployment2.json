@@ -5,8 +5,9 @@
 			"position": "Machine Learning Software Developer (Artificial Intelligence Group)",
 			"timeframe": "May - August 2019",
 			"details": [
-				"- Improved precision of linear spam classifier by 1% to achieve 0.94 Precision at 0.8 Recall",
-				"- Provided more accurate inference timing estimates, improved model evaluation process, and fixed feature generation bugs in C++ model training framework",
+				"- Improved precision of linear spam classifier by 1% to achieve 0.94 Precision at required 0.8 Recall",
+				"- Improved inference timing accuracy and fixed feature generation bugs in C++ model training framework",
+				"- Standardized model evaluation process by adding dataset splitting, cross validation, and a more granular error breakdown to model evaluation pipeline",
 				"- Explored difference between composition of news and opinion articles, created model to classify them with 0.93 F1.  Model and findings were presented to Artificial Intelligence Group and are being productized"
 			],
 			"img": "img/bloomberg.jpg",
@@ -21,6 +22,7 @@
 				"- Rewrote loss function in Tensorflow resulting in an experimental model with a 50% decreased false positive rate",
 				"- Identified and fixed bottleneck in training infrastructure, making model training 2x faster on average",
 				"- Customized the CARLA Autonomous Driving Simulator. Wrote Python Scripts to produce annotated frames for a synthetic data training system to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
+				"- Suggested implementation of cyclic learning rate schedule, leading to better performance and shorter model training times",
 				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term"
 			],
 			"img": "img/miovision.jpg",
