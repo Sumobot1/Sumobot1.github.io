@@ -129,7 +129,7 @@
 }
 
 .bghome {
-    background: url('../img/hero.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/home_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -138,7 +138,7 @@
 }
 
 .bgabout {
-    background: url('../img/Itried.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/about_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,7 +147,7 @@
 }
 
 .bghardware {
-    background: url('../img/Shuttle.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/hardware_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -156,7 +156,7 @@
 }
 
 .bgsoftware {
-    background: url('../img/Softwarebg2.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/software_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -165,7 +165,7 @@
 }
 
 .bgmedia {
-    background: url('../img/Sunset.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/media_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -174,7 +174,7 @@
 }
 
 .bgcontact {
-    background: url('../img/Sunmoreset.jpg') no-repeat center center;
+    background: url('../img/page_backgrounds/contact_bg.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%-50px;
     -moz-background-size: cover;
     -o-background-size: cover;

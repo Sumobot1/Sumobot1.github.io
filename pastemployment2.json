@@ -11,7 +11,7 @@
 				"- Standardized model evaluation pipeline by adding dataset splitting, cross validation, and a more granular error breakdown",
 				"- Explored difference between composition of news and opinion articles, created BiLSTM+Attention model to classify them with 93% F1.  Model and findings were presented to Artificial Intelligence Group and are being productized"
 			],
-			"img": "img/bloomberg.jpg",
+			"img": "img/employment/bloomberg.jpg",
 			"href": "https://www.bloomberg.com"
 		},
 		{
@@ -26,7 +26,7 @@
 				"- Suggested implementation of cyclic learning rate schedule, leading to better performance and shorter model training times",
 				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term"
 			],
-			"img": "img/miovision.jpg",
+			"img": "img/employment/miovision.jpg",
 			"href": "https://miovision.com/"
 		},
 		{
@@ -39,7 +39,7 @@
 				"- Decoupled long running tasks into Sidekiq Workers to eliminate legacy code, projected to save $21,800 yearly",
 				"- Diagnosed and fixed a production emergency in under 4 hours, which had caused all servers to be unresponsive"
 			],
-			"img": "img/miovision.jpg",
+			"img": "img/employment/miovision.jpg",
 			"href": "https://miovision.com/"
 		},
 		{
@@ -50,7 +50,7 @@
 				"- Investigated reproducing Datalink environment in Docker, allowing for 16x faster setup and cross-platform coding",
 				"- Implemented data visualization tool to help sales keep track of metrics and identify target areas for expansion"
 			],
-			"img": "img/miovision.jpg",
+			"img": "img/employment/miovision.jpg",
 			"href": "https://miovision.com/"
 		},
 		{
@@ -63,7 +63,7 @@
 				"- Made multiple improvements to existing layout generation algorithms including complete rewrite of upper cabinet placement logic",
 				"- Participated in code reviews, helped test and debug issues across entire stack"
 			],
-			"img": "img/builddirect.png",
+			"img": "img/employment/builddirect.png",
 			"href": "http://www.builddirect.com/design-center"
 		},
 		{
@@ -76,7 +76,7 @@
 				"- Coded across Android (Java), iOS (Obj-C) and Web (Javascript) to implement a Netflix style Continue Watching feature",
 				"- Customer support lead for over 2 million users. Resolved over 2200 support tickets in multiple languages"
 			],
-			"img": "img/videostream.png",
+			"img": "img/employment/videostream.png",
 			"href": "http://getvideostream.com/"
 		},
 		{
@@ -87,7 +87,7 @@
 				"- Assisted in front-end development of DashTask website, as well as visual design consulting",
 				"- Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
 			],
-			"img": "img/Dashtasksquare.png",
+			"img": "img/employment/Dashtasksquare.png",
 			"href": "http://www.dashtask.ca"
 		},
 		{
@@ -98,7 +98,7 @@
 				"- Assisted in the design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying the finished product, and repairing broken units.",
 		        "- Created new template for Palette Website from scratch"
 			],
-			"img": "img/Palette.jpg",
+			"img": "img/employment/Palette.jpg",
 			"href": "https://www.palettegear.com"
 		},
 		{
@@ -112,7 +112,7 @@
 		        "- Manage weekly budget to purchase needed camp supplies",
 		        "- Interact with parents and other leaders."
 			],
-			"img": "img/Kit_Logo_RGBsquare.png",
+			"img": "img/employment/Kit_Logo_RGBsquare.png",
 			"href": "https://www.kitchener.ca/en/livinginkitchener/Neighbourhood-Camps.asp"
 		},
 		{
@@ -122,7 +122,7 @@
 			"details": [
 				"- Assisted patrons, sold draw tickets and food at intermission"
 			],
-			"img": "img/drayton-logosquare.png",
+			"img": "img/employment/drayton-logosquare.png",
 			"href": "http://www.stjacobs.com/theatre"
 		}
 	]
