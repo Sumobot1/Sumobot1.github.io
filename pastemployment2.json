@@ -1,38 +1,49 @@
 {
 	"pastemployment": [
 		{
-			"company": "Bloomberg",
-			"position": "Machine Learning Software Developer (Artificial Intelligence Group)",
-			"timeframe": "May - August 2019",
+			"company": "Local Line - Kitchener, ON",
+			"position": "Software Developer (Contract)",
+			"timeframe": "May - Oct 2020",
+			"details": [
+				"- Identified/rewrote multiple sections of code, fixing major performance issues and decreasing AWS costs by $6200/year",
+				"- Optimized Django ORM queries; fixes made pages load 4x faster on average, especially for larger customers"
+			],
+			"img": "img/employment/localline.png",
+			"href": "https://site.localline.ca/"
+		},
+		{
+			"company": "Bloomberg - New York, NY",
+			"position": "Machine Learning Developer Intern (Artificial Intelligence Group)",
+			"timeframe": "May - Aug 2019",
 			"details": [
 				"- Improved precision of linear spam classifier by 1% to achieve 94% Precision at required 80% Recall in latency constrained environment",
 				"- Experimented with combining MinHashes of tokens and Brown Clusters as features for Soft-Margin SVM",
 				"- Improved inference timing accuracy and fixed feature generation bugs in C++ model training framework",
-				"- Standardized model evaluation pipeline by adding dataset splitting, cross validation, and a more granular error breakdown",
-				"- Explored difference between composition of news and opinion articles, created BiLSTM+Attention model to classify them with 93% F1.  Model and findings were presented to Artificial Intelligence Group and are being productized"
+				"- Standardized model evaluation pipeline by adding dataset splitting, cross validation, and improved error breakdown",
+				"- Explored difference between composition of news and opinion articles, created BiLSTM+Attention model to classify them with 93% F1.  Model and findings were presented to Artificial Intelligence Group and productized"
 			],
 			"img": "img/employment/bloomberg.jpg",
 			"href": "https://www.bloomberg.com"
 		},
 		{
-			"company": "Miovision Technologies",
+			"company": "Miovision Technologies - Kitchener, ON",
 			"position": "Machine Learning Developer Intern",
-			"timeframe": "September - December 2018",
+			"timeframe": "Sep - Dec 2018",
 			"details": [
 				"- Designed, trained, and deployed an improved SSD object detection model to production, which decreased false negative rates by 61% on average and resolved critical detection issues.  Efforts received company-wide recognition",
 				"- Rewrote Smooth L1 loss function in Tensorflow resulting in an experimental model with a 50% decreased false positive rate",
 				"- Identified and fixed bottleneck in training infrastructure, making model training 2x faster on average",
-				"- Customized the CARLA Autonomous Driving Simulator. Wrote Python Scripts to produce annotated frames for a synthetic data training system to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
+				"- Created Synthetic Data Training System using CARLA Simulator and OpenCV to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
 				"- Suggested implementation of cyclic learning rate schedule, leading to better performance and shorter model training times",
-				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base so experiments could continue after the end of my co-op term"
+				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base"
 			],
 			"img": "img/employment/miovision.jpg",
 			"href": "https://miovision.com/"
 		},
 		{
-			"company": "Miovision Technologies",
+			"company": "Miovision Technologies - Kitchener, ON",
 			"position": "Software Developer Intern",
-			"timeframe": "January - April 2018",
+			"timeframe": "Jan - Apr 2018",
 			"details": [
 				"- Utilized Ruby-Prof for performance profiling; fixes made report generation 200x faster, and PDF generation 6x faster",
 				"- Optimized Ruby on Rails’ ActiveRecord ORM queries to make website performance 2.3x faster on average",
@@ -43,9 +54,9 @@
 			"href": "https://miovision.com/"
 		},
 		{
-			"company": "Miovision Technologies",
+			"company": "Miovision Technologies - Kitchener, ON",
 			"position": "Software Developer Intern",
-			"timeframe": "April - August 2017",
+			"timeframe": "Apr - Aug 2017",
 			"details": [
 				"- Investigated reproducing Datalink environment in Docker, allowing for 16x faster setup and cross-platform coding",
 				"- Implemented data visualization tool to help sales keep track of metrics and identify target areas for expansion"
@@ -54,9 +65,9 @@
 			"href": "https://miovision.com/"
 		},
 		{
-			"company": "BuildDirect Design Center",
+			"company": "BuildDirect Design Center - Kitchener, ON",
 			"position": "Software Developer Intern",
-			"timeframe": "August - December 2016",
+			"timeframe": "Aug - Dec 2016",
 			"details": [
 				"- Wrote Python layout filtering module, resulting in 33% decrease in layout generation time and improved UI",
 				"- Created an integration with Github and Slack APIs to improve deployment workflow and provide visibility to engineers",
@@ -67,9 +78,9 @@
 			"href": "http://www.builddirect.com/design-center"
 		},
 		{
-			"company": "Videostream",
+			"company": "Videostream - Kitchener, ON",
 			"position": "Software Support Specialist",
-			"timeframe": "January - April 2016",
+			"timeframe": "Jan - Apr 2016",
 			"details": [
 				"- Worked in a hybrid development/support role, taking user feedback and using it to implement requested features into Videostream app (2M+ users)",
 				"- Using Javascript, implemented a Recent Downloads feature into the app, currently used by over 5000 users daily",
@@ -80,9 +91,9 @@
 			"href": "http://getvideostream.com/"
 		},
 		{
-			"company": "DashTask",
+			"company": "DashTask - Kitchener, ON",
 			"position": "Front End Web Development Intern",
-			"timeframe": "June - August 2015",
+			"timeframe": "Jun - Aug 2015",
 			"details": [
 				"- Assisted in front-end development of DashTask website, as well as visual design consulting",
 				"- Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
@@ -91,9 +102,9 @@
 			"href": "http://www.dashtask.ca"
 		},
 		{
-			"company": "Palette",
+			"company": "Palette - Kitchener, ON",
 			"position": "Hardware Design and Assembly Intern",
-			"timeframe": "June - July 2015",
+			"timeframe": "Jun - Jul 2015",
 			"details": [
 				"- Assisted in the design and development of Palette's premium all wood product line. Duties included assembling components, assembling and modifying the finished product, and repairing broken units.",
 		        "- Created new template for Palette Website from scratch"
@@ -102,9 +113,9 @@
 			"href": "https://www.palettegear.com"
 		},
 		{
-			"company": "City of Kitchener",
+			"company": "City of Kitchener - Kitchener, ON",
 			"position": "Camp Counsellor",
-			"timeframe": "July - August, 2012/2013/2014",
+			"timeframe": "Jul - Aug, 2012/2013/2014",
 			"details": [
 		        "- Planned and executed fun and educational activities for campers",
 		        "- Provided supervision on field trips and monitored camper behaviour",
@@ -116,7 +127,7 @@
 			"href": "https://www.kitchener.ca/en/livinginkitchener/Neighbourhood-Camps.asp"
 		},
 		{
-			"company": "St. Jacobs Country Playhouse",
+			"company": "St. Jacobs Country Playhouse - Kitchener, ON",
 			"position": "Usher",
 			"timeframe": "2010 - 2015",
 			"details": [

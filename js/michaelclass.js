@@ -65,14 +65,23 @@ $(document).ready(function() {
         }
         for (var i = 0; i < pastemployment.length; i++) {
             $('<div class="row"> \
-                        <div class="col-md-3 text-center"> \
-                            <a href="' + pastemployment[i]['href'] + '" align="center" class="text-center"><img src=' + pastemployment[i]['img'] + ' alt=' + pastemployment[i]["company"] + ' style="max-width: 70vw; width: 100%; height: 100%;"></a> \
+                <div class="col-md-3 text-center"> \
+                    <a href="' + pastemployment[i]['href'] + '" align="center" class="text-center"><img src=' + pastemployment[i]['img'] + ' alt=' + pastemployment[i]["company"] + ' style="max-width: 70vw; width: 100%; height: 100%;"></a> \
+                </div> \
+                <div class="col-sm-9"> \
+                    <div class="row"> \
+                        <div class="col-sm-9"> \
+                            <h2 class="white-text">' + pastemployment[i]["position"] + '</h2> \
                         </div> \
-                        <div class="col-md-9"> \
-                            <h2 class="white-text">' + pastemployment[i]["company"] + ': ' + pastemployment[i]["position"] + '</h2> \
-                            <strong class="white-text">Duration:</strong> \
-                            <p class="white-text"> ' + pastemployment[i]['timeframe'] + '</p> \
-                            <strong class="white-text">Details:</strong> \
+                        <div class="col-sm-3"> \
+                            <h2 class="white-text" style="text-align: right">' + pastemployment[i]["timeframe"] + '</h2> \
+                        </div> \
+                    </div> \
+                    <div class="row"> \
+                        <div class="col-sm-12"> \
+                            <h2 class="white-text">' + pastemployment[i]["company"] + '</h2> \
+                        </div> \
+                    </div> \
                             ' + pastemployment[i]['details'].map((info) => {
                     return "<p class=\"white-text bullet-point\">" + info + "</p>" }).join("") +
                 '</div> \
@@ -82,6 +91,10 @@ $(document).ready(function() {
             }
         }
     }
+                        // <h2 class="white-text">' + pastemployment[i]["company"] + ': ' + pastemployment[i]["position"] + '</h2> \
+                        //     <strong class="white-text">Duration:</strong> \
+                        //     <p class="white-text"> ' + pastemployment[i]['timeframe'] + '</p> \
+                        //     <strong class="white-text">Details:</strong> \
 
     function handleImages(info) {
         var galleries = JSON.parse(info)['images'];
