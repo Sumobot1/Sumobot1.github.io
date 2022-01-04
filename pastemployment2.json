@@ -75,7 +75,7 @@
 				"- Participated in code reviews, helped test and debug issues across entire stack"
 			],
 			"img": "img/employment/builddirect.png",
-			"href": "http://www.builddirect.com/design-center"
+			"href": "https://www.builddirect.com/design-center"
 		},
 		{
 			"company": "Videostream - Kitchener, ON",
@@ -88,7 +88,7 @@
 				"- Customer support lead for over 2 million users. Resolved over 2200 support tickets in multiple languages"
 			],
 			"img": "img/employment/videostream.png",
-			"href": "http://getvideostream.com/"
+			"href": "https://getvideostream.com/"
 		},
 		{
 			"company": "DashTask - Kitchener, ON",
@@ -99,7 +99,7 @@
 				"- Specific tasks included adding expandable sections for the 'Post a New Task' page, and adding a 'Completed Task' view to both the 'All Tasks' page, and the 'User Panel' page."
 			],
 			"img": "img/employment/Dashtasksquare.png",
-			"href": "http://www.dashtask.ca"
+			"href": "https://www.dashtask.ca"
 		},
 		{
 			"company": "Palette - Kitchener, ON",
@@ -134,7 +134,7 @@
 				"- Assisted patrons, sold draw tickets and food at intermission"
 			],
 			"img": "img/employment/drayton-logosquare.png",
-			"href": "http://www.stjacobs.com/theatre"
+			"href": "https://www.stjacobs.com/theatre"
 		}
 	]
 }

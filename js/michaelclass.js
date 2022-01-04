@@ -157,8 +157,8 @@ $(document).ready(function() {
         }
     }
 
-    loadJSON('http://sumobot1.github.io/pastemployment2.json', handlePastEmployment);
-    loadJSON('http://sumobot1.github.io/imagegallery.json', handleImages);
+    loadJSON('https://sumobot1.github.io/pastemployment2.json', handlePastEmployment);
+    loadJSON('https://sumobot1.github.io/imagegallery.json', handleImages);
 });
 
 var special = ['zeroth','first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth', 'eleventh', 'twelvth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth'];
