@@ -1,12 +1,24 @@
 {
 	"pastemployment": [
 		{
+			"company": "Bloomberg - New York, NY",
+			"position": "Software Engineer",
+			"timeframe": "Nov 2020 - Present",
+			"details": [
+				"- Designed and built live annotation pipeline for Document Ranking Model, allowing for real-time performance monitoring",
+				"- Developed PySpark libraries for dataset retrieval and filtering, used company-wide"
+			],
+			"img": "img/employment/bloomberg.jpg",
+			"href": "https://www.bloomberg.com"
+		},
+		{
 			"company": "Local Line - Kitchener, ON",
 			"position": "Software Developer (Contract)",
 			"timeframe": "May - Oct 2020",
 			"details": [
-				"- Identified/rewrote multiple sections of code, fixing major performance issues and decreasing AWS costs by $6200/year",
-				"- Optimized Django ORM queries; fixes made pages load 4x faster on average, especially for larger customers"
+				"- Identified and fixed caching issues, decreasing costs by $85,200/year.",
+				"- Optimized Django n+1 queries, improving page load times by over 5x",
+				"- Rewrote localization and timezone support site-wide, fixing recurring timezone and DST issues"
 			],
 			"img": "img/employment/localline.png",
 			"href": "https://site.localline.ca/"
@@ -16,11 +28,10 @@
 			"position": "Machine Learning Developer Intern (Artificial Intelligence Group)",
 			"timeframe": "May - Aug 2019",
 			"details": [
-				"- Improved precision of linear spam classifier by 1% to achieve 94% Precision at required 80% Recall in latency constrained environment",
-				"- Experimented with combining MinHashes of tokens and Brown Clusters as features for Soft-Margin SVM",
-				"- Improved inference timing accuracy and fixed feature generation bugs in C++ model training framework",
-				"- Standardized model evaluation pipeline by adding dataset splitting, cross validation, and improved error breakdown",
-				"- Explored difference between composition of news and opinion articles, created BiLSTM+Attention model to classify them with 93% F1.  Model and findings were presented to Artificial Intelligence Group and productized"
+				"- Implemented BiLSTM + Attention language classification model to classify news vs opinion articles with 93% F1",
+				"- Improved inference timing accuracy and fixed unexpected behavior in C++ model training framework",
+				"- Reduced variability in model evaluation scoring by adding cross validation, and improved error breakdown",
+				"- Researched combining MinHashes of tokens and Brown Clusters as features for Soft-Margin SVM"
 			],
 			"img": "img/employment/bloomberg.jpg",
 			"href": "https://www.bloomberg.com"
@@ -30,12 +41,12 @@
 			"position": "Machine Learning Developer Intern",
 			"timeframe": "Sep - Dec 2018",
 			"details": [
-				"- Designed, trained, and deployed an improved SSD object detection model to production, which decreased false negative rates by 61% on average and resolved critical detection issues.  Efforts received company-wide recognition",
-				"- Rewrote Smooth L1 loss function in Tensorflow resulting in an experimental model with a 50% decreased false positive rate",
-				"- Identified and fixed bottleneck in training infrastructure, making model training 2x faster on average",
-				"- Created Synthetic Data Training System using CARLA Simulator and OpenCV to improve model performance on underrepresented classes and challenging conditions (headlight glare, rain, harsh shadows, etc.)",
-				"- Suggested implementation of cyclic learning rate schedule, leading to better performance and shorter model training times",
-				"- Trained two new full time hires on how to use the model training/validation infrastructure and helped them gain familiarity with the code base"
+				"- Improved data augmentation methods and learning rate decay schedule, resulting in 61% decrease in false negative rates in production object detection model",
+				"- Received company-wide recognition for resolving critical detection issues with production model causing incorrect traffic light signalling",
+				"- Isolated and removed bottlenecks in training infrastructure, making model training 2x faster",
+				"- Researched improving RMSProp optimizer with cyclic learning rate, resulting in better model accuracy and faster training",
+				"- Rewrote Smooth L1 loss function in Tensorflow resulting in model with 50% decreased false positive rate",
+				"- Created Synthetic Data using CARLA Simulator to improve model performance on underrepresented classes and challenging conditions"
 			],
 			"img": "img/employment/miovision.jpg",
 			"href": "https://miovision.com/"
