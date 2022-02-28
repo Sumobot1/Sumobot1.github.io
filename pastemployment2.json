@@ -6,7 +6,8 @@
 			"timeframe": "Nov 2020 - Present",
 			"details": [
 				"- Designed and built live annotation pipeline for Document Ranking Model, allowing for real-time performance monitoring",
-				"- Developed PySpark libraries for dataset retrieval and filtering, used company-wide"
+				"- Developed PySpark libraries for dataset retrieval and filtering, used company-wide",
+				"- Built pipeline using Kafka to ingest documents from SOLR datastore to HDFS storage for model training"
 			],
 			"img": "img/employment/bloomberg.jpg",
 			"href": "https://www.bloomberg.com"
